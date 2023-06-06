@@ -2032,7 +2032,7 @@ void MemoryTool::MemoryWrite(char *value, OFFSET offset, TYPE type) {
 	}
 	// ClearResults();//cleer list
 }
-int MemoryWrite_DWORD(DWORD value, PMAPS pBuff, OFFSET offset) {
+int MemoryTool::MemoryWrite_DWORD(DWORD value, PMAPS pBuff, OFFSET offset) {
 	
 	PMAPS pTemp = NULL;
 	pTemp = pBuff;
